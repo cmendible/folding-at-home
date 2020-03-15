@@ -24,7 +24,7 @@ az container create --name fahclient --resource-group <resource group name> --im
 Check logs:
 
 ```shell
-az container logs -g fah -n fahclient --follow
+az container logs -g <resource group name> -n fahclient --follow
 ```
 
 ## Runnin in Kubernetes
