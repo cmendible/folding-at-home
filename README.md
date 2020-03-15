@@ -21,6 +21,12 @@ az group create -n <resource group name> -l westeurope
 az container create --name fahclient --resource-group <resource group name> --image cmendibl3/fahclient:latest
 ```
 
+Check logs:
+
+```shell
+az container logs -g fah -n fahclient --follow
+```
+
 ## Runnin in Kubernetes
 
 ```shell
