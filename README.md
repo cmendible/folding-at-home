@@ -1,6 +1,6 @@
 # Folding@Home client docker file
 
-## Start
+## HOW TO
 
 Start by running:
 
@@ -8,7 +8,7 @@ Start by running:
 docker run --rm -it cmendibl3/fahclient
 ```
 
-or 
+To run with your own parameters run:
 
 ```shell
 docker run --rm -it cmendibl3/fahclient --user=<your user> --team=<your team> --gpu=<false or true> --power=<medium or full>
