@@ -27,7 +27,7 @@ Check logs:
 az container logs -g <resource group name> -n fahclient --follow
 ```
 
-## Runnin in Kubernetes
+## Running in Kubernetes
 
 ```shell
 kubectl apply -f deployment.yaml
